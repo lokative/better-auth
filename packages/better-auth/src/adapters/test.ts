@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import type { Adapter, User } from "../types";
-import { nanoid } from "nanoid";
+const { nanoid } = require('nanoid');
 
 interface AdapterTestOptions {
 	adapter: Adapter;
